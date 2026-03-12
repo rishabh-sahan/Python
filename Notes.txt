@@ -1,3 +1,5 @@
 Indentation & Spacing is most imporatant in python
 python is the case sensitive language
 
+Keywords are reserved words which we cannot se them as variables
+
