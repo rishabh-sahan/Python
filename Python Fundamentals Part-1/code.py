@@ -136,9 +136,9 @@ and True is considered as everything other than 0
 # sum = a + b
 # print("The sum of a and b is:", sum)
 
-a = float(input("Enter the value of a: "))
-b = float(input("Enter the value of b: "))
-sum = a + b
-print("The sum of a and b is:", sum)
-avg = sum / 2
-print("The average of a and b is:", avg)
+# a = float(input("Enter the value of a: "))
+# b = float(input("Enter the value of b: "))
+# sum = a + b
+# print("The sum of a and b is:", sum)
+# avg = sum / 2
+# print("The average of a and b is:", avg)
