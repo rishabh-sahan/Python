@@ -3,3 +3,8 @@ python is the case sensitive language
 
 Keywords are reserved words which we cannot se them as variables
 
+Operators
+Arithmetic
+Relational / Comparison
+Assignment
+Logical
