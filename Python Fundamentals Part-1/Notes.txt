@@ -1,0 +1,25 @@
+Indentation & Spacing is most imporatant in python
+python is the case sensitive language
+
+Keywords are reserved words which we cannot se them as variables
+
+Operators
+Arithmetic
+Relational / Comparison
+Assignment
+Logical
+
+Operator Precedence -> Priority
+()
+**
+*, /, %
++, -
+==, !=, >, >=, <, <=
+not
+and
+or
+
+Conversion
+    Type Conversion -> implicit convesrions -> automatically done by python compilers
+    Type Casting -> explicit conversions -> manually done by the developers
+
