@@ -1,5 +1,7 @@
 Conditional Statements
     if, elif, else
+    Match Case -> Alternative for if, elif, else
 Loops
-    
+    while, for
+    break, cotinue
 Functions
