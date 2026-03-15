@@ -5,3 +5,13 @@ Loops
     while, for
     break, cotinue
 Functions
+    Blocks of statements that performs specific tasks
+    Reusable components of code
+        range function paramenters => range(start, stop, step)
+
+Function definition (logic), Function call (invoke)
+    2 Types of Functions
+        built-in function -> print(), input(), type(), range()
+        user defined functions -> sum(), avg() etc.......
+
+Lambda Function

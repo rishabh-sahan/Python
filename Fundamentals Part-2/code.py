@@ -185,3 +185,59 @@
 # print("Vowel count =", count)
 
 # range()
+# for i in range (5):
+#     print(i) # 0 1 2 3 4 
+# for i in range (1, 6):
+#     print(i) # 1 2 3 4 5
+# for i in range (1, 10, 2):
+#     print(i) # 1 3 5 7 9 
+
+# Sum of first n natural numbers => formula = n*(n+1)/2
+# n = int(input("Enter n: "))
+# sum = 0
+# for i in range (1, n+1):
+#     sum += i
+# print("Sum =", sum)
+
+# Functions
+# def hello(): # Function Definition
+#     print("Hello")
+#     print("From Function")
+# hello() # Function Call
+
+# Function Definition
+# def sum(a, b): # Parameters
+#     s = a + b
+#     return s
+# # Function Call
+# ans = sum(10, 10) # Arguments
+# print(ans)
+# print(sum(5, 5))
+
+# Function to calculate Avg
+# def avg(a, b, c):
+#     res = (a + b + c) / 3
+#     return res
+# print(avg(10, 20, 30))
+
+# def sum (a, b=1):
+#     return a + b
+# print(sum(10, 20)) # 30
+# print(sum(10)) # 11
+
+# Lambda Function
+# sum = lambda a, b: a + b
+# print(sum(10, 20))
+
+# avg = lambda a, b: (a + b) / 2
+# print(avg(10, 20))
+
+# WAF to print factorial of n
+# def calc_fact(n):
+#     fact = 1
+#     for i in range(1, n+1):
+#         fact *= i
+#     return fact
+# n = int(input("Enter the value of n: "))
+# print(calc_fact(n))
+
