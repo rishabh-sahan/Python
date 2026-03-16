@@ -1,0 +1,19 @@
+OOP -> Object Oriented Programming
+    Mapping Real World Objects with code
+    
+Classes -> Blueprint of an object
+    - Attributes (Properties)
+    - Methods (Behaviours)
+
+Objects -> Instance of a class
+
+Constructor -> 
+    __init__ Method -> Special method called every time when an object gets created
+    self -> It is storing current instance of the class
+    
+    Default and Parameterized
+
+Attributes
+    Class Attributes -> Belong to class
+    Instance Attributes -> Belong to object
+
