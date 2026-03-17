@@ -17,3 +17,16 @@ Attributes
     Class Attributes -> Belong to class
     Instance Attributes -> Belong to object
 
+Methods 
+    instance, class and static methods
+
+OOP Pillars
+    1. Encapsulation -> Wrapping data and functions into single unit (class) -> Data Hiding
+    2. Inheritance -> Reusing attr & methods from a Parent (Base) class 
+        Single Level Inheritance
+        Multi Level Inheritance
+        Multiple Inheritance
+    
+    3. Abstraction -> Hiding internal details and showing only essential featuresf
+    4. Polymorphism -> Many forms
+        Duck Typing 
