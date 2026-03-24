@@ -68,9 +68,21 @@ Pandas -> query() rules
 
 Pandas -> Cleaning Data
     Handle Missing Values
-        isnull() / isna()
+        isnull() / isna() <- alias
         isnull().sum()
         dropna()
         fillna(value)
-        ffill()
-        bfill()
+        ffill() ->  forward fill
+        bfill() ->  backward fill
+    Handle Duplicate Values
+        duplicated()
+        drop_duplicates()
+    Handle Data Types & data-time
+        dtypes
+        astype(newType)
+        to_datetime()
+    Handle Strings
+        .str.lower(), .str.upper() & .capitalize()
+        .str.strip()
+        .str.split("")
+        .str.contains(val, case=False)
