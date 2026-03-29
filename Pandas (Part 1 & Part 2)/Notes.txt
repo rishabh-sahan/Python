@@ -94,5 +94,28 @@ Pandas -> Transforming Data (Feature Engineering)
             assign()
             replace(old, new)
 
+Transforming Data
+    rename()
+    sort_values()
+    sort_index()
+    reset_index()
+    rank()
+    Reorder columns
 
+Writing to csv
+    df.to_csv(filename)
+    df.to_json(filename)
+    df.to_excel(filename)
+
+Grouping & Aggregation of Data
+    groupby()
+    mean/sum/max/min/count etc
+    agg()
     
+Melt & Pivot
+    Melt - Wide to Long format
+    melt(id_vars, value_vars, var_name, value_name)
+          KEEP    UNPIVOT  NEW_COL_NAME NEW_COL_VALUE
+    Pivot - Long to Wide format
+    pivot(index, columns, values)
+          KEEP 
