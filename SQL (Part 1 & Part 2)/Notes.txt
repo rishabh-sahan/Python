@@ -1,0 +1,26 @@
+Relational Database: SQL
+
+MySQL(DB) <- SQL(Language) -> Dev
+
+What is a Database
+	It is a collection of data in a format that can be easily accessed.
+
+Why Databases?
+	> can store large data
+	> features like security, scalability etc
+	> easier to insert, update, search or delete data
+
+DBMS -> Database management system
+
+SQL v/s NoSQL
+	
+SQL -> Structured Query Language
+	Relational Database (Data stored in Tables)
+	Ex: MySQL, Oracle, PostgreSQL etc
+
+NoSQL -> Not Only Structured Query Language
+	Non Relational Database (Data stored in document/key-val/graphs etc)
+	Ex: MongoDB, Cassandra, Neo4j etc
+
+SQL (Structured Query Language)
+	SQL is a programming language used to interact with relational databases.
