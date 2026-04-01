@@ -24,3 +24,16 @@ NoSQL -> Not Only Structured Query Language
 
 SQL (Structured Query Language)
 	SQL is a programming language used to interact with relational databases.
+
+SQL is case-insensitive
+
+First Database
+	CREATE DATABASE database_name;
+	DROP DATABASE database_name;
+	USE database_name;
+
+	CREATE TABLE table_name (
+		column_name1 datatype constraint,
+		column_name2 datatype constraint,
+		...
+	);
