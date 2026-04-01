@@ -37,3 +37,49 @@ First Database
 		column_name2 datatype constraint,
 		...
 	);
+
+	CREATE TABLE student (
+		rollno INT,
+		name VARCHAR(30),
+		age INT
+	);
+
+	INSERT INTO student
+	VALUES
+	(1, 'Alice', 20),
+	(2, 'Bob', 22);
+
+	SELECT * FROM student;
+
+	Database Queries
+	CREATE DATABASE database_name;
+	CREATE DATABASE IF NOT EXISTS database_name;
+	DROP DATABASE database_name;
+	DROP DATABASE IF EXISTS database_name;
+	SHOW DATABASES;
+	USE database_name;
+	SHOW TABLES;
+
+	Table Queries
+	Create
+	Insert
+	Update
+	Alter
+	Truncate
+	Delete
+
+	Create Table (Schema/Columns)
+	CREATE TABLE table_name (
+		column_name1 datatype constraint,
+		column_name2 datatype constraint,
+		...
+	);
+	
+	Constraints -> Rules for data in a table
+		NOT NULL -> Column cannot have a null value
+		UNIQUE -> All values in column are different
+		DEFAULT -> Set the default value for a column
+		CHECK -> It can limit the values allowed in a column
+		PRIMARY KEY -> Makes a column unique & not null but used only for one
+		FORIEGN KEY -> Prevent actions that would destroy links between tables
+		
