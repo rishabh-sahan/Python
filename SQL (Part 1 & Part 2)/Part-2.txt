@@ -1,0 +1,104 @@
+Transactions
+    SELECT @@autocommit;
+    
+    Disable autocommit
+    SET autocommit=0;
+
+    Enable autocommit
+    SET autocommit=1;
+
+    Transactions
+    Start & Commit
+    START TRANSACTION;
+    UPDATE accounts SET balance = balance - 50 WHERE id = 1;
+    UPDATE accounts SET balance = balance + 50 WHERE id = 2;
+    COMMIT;
+
+    Start & Rollback
+    START TRANSACTION;
+    UPDATE accounts SET balance = balance - 50 WHERE id = 1;
+    UPDATE accounts SET balance = balance + 50 WHERE id = 2;
+    ROLLBACK;
+
+    Savepoints
+    START TRANSACTION;
+    UPDATE accounts SET balance = balance + 1000 WHERE id = 1;
+    SAVEPOINT after_wallet_topup;
+    UPDATE accounts SET balance = balance + 10 WHERE id = 1;
+    ROLLBACK TO after_wallet_topup;
+    COMMIT;
+
+    JOINS -> JOINs are used to combine rows from two or more tables based on a related column between them.
+    Types of JOINS:
+        Inner Join, Left Join, Right Join, Full Join, Cross Join, Self Join
+
+        INNER JOIN
+        Syntax:
+        SELECT column(s)
+        FROM tableA
+        INNER JOIN tableB
+        ON tableA.col_name = tableB.col_name;
+
+        SELECT c.customer_id, o.order_id, c.name
+        FROM customers c
+        INNER JOIN orders o
+        ON c.customer_id = o.customer_id;
+
+        LEFT JOIN or LEFT OUTER JOIN
+        Syntax:
+        SELECT column(s)
+        FROM tableA
+        LEFT JOIN tableB
+        ON tableA.col_name = tableB.col_name;
+
+        SELECT *
+        FROM customers c
+        LEFT JOIN orders o
+        ON c.customer_id = o.customer_id;
+
+        RIGHT JOIN or RIGHT OUTER JOIN
+        Syntax:
+        SELECT column(s)
+        FROM tableA
+        RIGHT JOIN tableB
+        ON tableA.col_name = tableB.col_name;
+
+        SELECT *
+        FROM customers c
+        RIGHT JOIN orders o
+        ON c.customer_id = o.customer_id;
+
+        OUTER JOIN
+        Syntax in MySQL:
+        SELECT * FROM customers as c
+        LEFT JOIN orders as o
+        ON c.customer_id = o.customer_id
+        UNION
+        SELECT * FROM customers as c
+        RIGHT JOIN orders as o
+        ON c.customer_id = o.customer_id;
+
+        CROSS JOIN
+        Syntax:
+        SELECT column(s)
+        FROM tableA
+        CROSS JOIN tableB;
+
+        SELECT *
+        FROM customers
+        CROSS JOIN orders o;
+
+        SELF JOIN -> It is a regular join but the table is joined with itself.
+        Syntax:
+        SELECT column(s)
+        FROM table as a
+        JOIN table as b
+        ON a.col_name = b.col_name;
+
+        SELECT *
+        FROM customers as A
+        JOIN customers as B
+        ON A.customer_id = B.customer_id;
+
+Practice Questions:
+    Write SQL commands to display the exclusive joins:
