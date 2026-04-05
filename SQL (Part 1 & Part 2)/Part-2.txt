@@ -102,3 +102,116 @@ Transactions
 
 Practice Questions:
     Write SQL commands to display the exclusive joins:
+    
+    Left Exclusive Join:
+    SELECT *
+    FROM customers as A
+    LEFT JOIN orders as B
+    ON A.customer_id = B.customer_id
+    WHERE B.customer_id IS NULL;
+
+    Right Exclusive Join:
+    SELECT *
+    FROM customers as A
+    RIGHT JOIN orders as B
+    ON A.customer_id = B.customer_id
+    WHERE A.customer_id IS NULL;
+
+    Sub-Queries
+    A subquery or Inner query or a Nested query is a query within another SQL query. It involves 2 select statements
+
+    Syntax:
+    SELECT column(s)
+    FROM table_name
+    WHERE column_name operator
+    (subquery);
+
+    Sub-Queries
+    with WHERE
+    SELECT *
+    FROM orders
+    WHERE amount > (
+        SELECT AVG(amount) 
+        FROM orders
+    );
+
+    with SELECT
+    SELECT name,
+        (    
+            SELECT COUNT(*)
+            FROM orders o
+            WHERE o.customer_id = c.customer_id
+        ) AS order_count
+    FROM customers c;
+
+    with FROM
+    SELECT
+        summary.customer_id,
+        summary.avg_amount
+    FROM
+        (
+            SELECT 
+                customer_id, 
+                AVG(amount) AS avg_amount
+            FROM orders
+            GROUP BY customer_id
+        ) AS summary
+    
+    Views in SQL
+        A view is a virtual table based on the result-set of an SQL statement.
+        A view always shows up-to-date data.
+        The database engine recreates the view, every time a user queries it.
+    Syntax:
+    CREATE VIEW view1 AS
+    SELECT col1, col2 FROM table_name
+
+    CREATE VIEW view1 AS
+    SELECT customer_id, name FROM customers;
+
+    SELECT c.customer_id, c.name, o.order_id 
+    FROM customers c
+    INNER JOIN orders o
+    ON c.customer_id = o.customer_id
+    
+    SELECT * FROM view1;
+    DROP VIEW view1;
+
+    Views in SQL
+        No data is stored physically (unless it's a materialized view in some databases).
+        Can include columns from one or more tables.
+        Can be used in SELECT, JOIN, or even WHERE clauses like a normal table.
+        Helps with security by exposing only certain columns to users.
+
+    Indexes in SQL
+        indexes are special database objects that make data retrieval faster.
+
+    Syntax (single col & multi col):
+    CREATE INDEX index_name ON table_name (column_name);
+    CREATE INDEX idx_name ON table_name (col1, col2);
+
+    SHOW INDEX FROM table_name;
+    DROP INDEX index_name ON table_name;
+
+    Stored Procedures in SQL
+        Predefined set of SQL statements that you can save in the database and execute whenever needed.
+    Syntax:
+    CREATE PROCEDURE procedure_name (parameters)
+    BEGIN
+        -- SQL statements
+    END;
+
+    Example:
+    DELIMITER $$
+    CREATE PROCEDURE check_balance (IN acc_id INT)
+    BEGIN
+        SELECT balance
+        FROM accounts
+        WHERE account_id = acc_id;
+    END $$
+    DELIMITER ;
+
+    Syntax(Call)
+    CALL procedure_name(arguments);
+
+    Syntax(Drop)
+    DROP PROCEDUREIF IF EXISTS procedure_name;
