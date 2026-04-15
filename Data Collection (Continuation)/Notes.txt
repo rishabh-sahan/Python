@@ -1,1 +1,7 @@
 Data Collection
+Popular Techniques:
+
+Public Datasets: Kaggle, UCI ML Repo etc.
+Databases: SQLAlchemy, sqlite3, PyMySQL, pymonogo, py2neo, neo4j etc.
+APIs: Retrieve structured data (JSON / XML etc.)
+Web Scraping: BeautifulSoup, lxml, Selenium, Playwright etc.
