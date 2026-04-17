@@ -5,3 +5,13 @@ Public Datasets: Kaggle, UCI ML Repo etc.
 Databases: SQLAlchemy, sqlite3, PyMySQL, pymonogo, py2neo, neo4j etc.
 APIs: Retrieve structured data (JSON / XML etc.)
 Web Scraping: BeautifulSoup + requests, lxml, Selenium, Playwright etc.
+
+Working with APIs
+API - Application Programming Interface
+using requests
+    GET, POST, PUT, DELETE etc.
+
+Status Codes
+200 - Everthing works successfully
+404 - Page not found
+500 - Internal Server error
