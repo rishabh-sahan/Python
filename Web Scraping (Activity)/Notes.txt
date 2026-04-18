@@ -1,0 +1,3 @@
+BeautifulSoup
+Activity
+From Quotes, extract all quotes & authors from all pages with the life tag
