@@ -110,4 +110,47 @@ bins - continuous range
 Histograms are used for the numerical data rather than the categorical data
 
 axvline
-    axvline is used to darw a vertical reference line on a plot, common to mark cutoff, averages, pass marks, or thresholds
+    axvline is used to darw a vertical reference line on a plot, common to mark cutoff, averages, pass marks, or thresholds.
+
+Box Plots
+    A box plot is a statistical visualization that summarizes the distribution of a dataset using five key numbers:
+Minimum (lowest non-outlier)
+First Quartile (Q1) - 25th percentile
+Median (Q2) - 50th percentile
+Third Quartile (Q3) - 75th percentile
+Maximum (highest non-outlier)
+
+Ex data: 7, 8, 5, 6, 9, 4, 10, 12, 15
+Sorted Data: 4, 5, 6, 7, 8, 9, 10, 12, 15
+
+    Q2 (Median) = 8
+    Q1 (First Quartile) = 6
+        4, 5, 6, 7, 8 -> Middle Value - 6
+    Q3 (Third Quartile) = 10
+        8, 9, 10, 12, 15 -> Middle Value - 10
+
+Box Plots is also called as Box & Whiskerplot
+Components: Whiskers & Outliers
+
+    IQR - Inter-Quartile Range
+        IQR = Q3 - Q1
+    Lower Whisker = Q1 - (1.5*IQR)
+    Upper Whisker = Q3 + (1.5*IQR)
+
+Additional Operations
+    Multiple Datasets
+    Horizontal Box Plot
+    Show Mean
+    Change Whisker Length
+
+Stack PLots
+    A stack plot is a type of plot where multiple data series are stacked on top of each other.
+    Each "layer" shows th contribution of one category, and the top line shows the cumulative total.
+
+Subplots
+    A subplot allows you to draw multiple plots in the same figure
+    plt.subplot(nrows, ncols, index)
+
+Modern Matplotlib
+Object Oriented API
+plt._ - state based API
