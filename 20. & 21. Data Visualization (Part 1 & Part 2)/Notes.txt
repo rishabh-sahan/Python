@@ -106,3 +106,8 @@ Ex:
     left value - right value
 
 bins - continuous range
+
+Histograms are used for the numerical data rather than the categorical data
+
+axvline
+    axvline is used to darw a vertical reference line on a plot, common to mark cutoff, averages, pass marks, or thresholds
