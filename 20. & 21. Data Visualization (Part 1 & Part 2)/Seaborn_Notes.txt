@@ -1,0 +1,29 @@
+Seaborn
+    Seaborn is a Python data visualization library based on matplotlib.
+
+Matplotlib -> Low level
+Seaborn -> High level
+
+Benifits of using Seaborn
+    In-build datasets
+    We get lot of high level features
+    It has great support for the pandas dataframes (df)
+    boxplots, heatmaps
+
+To install -> pip install seaborn
+
+relplot -> relational plots -> Ex: Scatter plot, Line plot 
+
+Relational Plots
+    Scatter Plots
+    Line Plots
+
+Categorical Plots
+    Bar Plots
+    Box Plots
+
+Distribution Plots
+    Histogram
+
+Matrix Plots
+    Heatmaps - PLot rectangular data as color=encoded matrix
