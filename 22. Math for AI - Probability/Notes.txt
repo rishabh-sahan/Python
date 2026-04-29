@@ -160,4 +160,17 @@ Conditional Probability
     It is the probability of an event B occuring given that another event A has already happened.
         We write it as: P(B | A) = P(A ∩ B) / P(A)
             P(B | A) -> Probability of B given given A already occured
-        
+
+Example:
+    In a class of 100 students:
+        40 students study math.
+        30 students pass the math exam.
+        25 students both study math and pass the exam.
+    What is the probability that a student passes the exam given that they studied math?
+        A = Studied Math
+        B = Passes exam
+            P(B/A) = P(A ∩ B)/P(A)
+                   = 25/100 / 40/100
+            P(B/A) = 25/40 = 5/8
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
