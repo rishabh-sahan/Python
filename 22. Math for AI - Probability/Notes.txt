@@ -268,7 +268,10 @@ Probability Distributions
     A probability distribution describes how probabilities are assigned to all possible outcomes.
     It tells you how likely different outcomes are.
 Types:
-    Discrete Probability Distribution - Discrete RV i.e. outcomes we can count. -> Coin Toss, Dice Ro
+    Discrete Probability Distribution - Discrete RV i.e. outcomes we can count. -> Coin Toss, Dice Roll
         Eg: Binomial Distribution
-    Continuous Probability Distribution - Continuous RV i.e. outcome can be any number in range.
+    Continuous Probability Distribution - Continuous RV i.e. outcome can be any number in range. -> Height, Weight, Income, Numbers
         Eg: Uniform Distribution, Normal Distribution
+
+Binomial Distribution
+    Used to model the number of successes in N trades
