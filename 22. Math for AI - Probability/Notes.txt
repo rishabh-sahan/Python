@@ -275,3 +275,58 @@ Types:
 
 Binomial Distribution
     Used to model the number of successes in N trades
+Formula: P(X = k) = C(n, k) * p^k * (1-p)^(n-k)
+    Where:
+n = number of trials
+k = number of successes
+p = probability of success
+C(n, k) is number of ways to choose k successes out of n (Combinations)
+
+An experiment follows a binomial distribution if:
+    There are fixed number of trials (say n)
+        n=1 Bernouli Distribution
+    Each trial has only two outcomes
+        success or failure
+    Probability of success p is ame every time
+    Trials are independent
+
+Example:
+A fair coin is tossed 5 times. Find the probability that exactly 3 heads are obtained.
+    n = 5
+    k = 3
+    p -> Head 
+    p(H->3x) = ^nCk p^k (1-p)^k
+             = ^5Ck * (1/2)^3 * (1/2)^2
+             = 5!/3! 2! * 1/2^3 * 1/2^2
+             = 5/16
+
+Uniform Distribution
+    It is a probability distribution where all outcomes are equally likely.
+        Discrete Uniform Distribution - Coin toss, Rolling a die
+            PMF - Probability Mass Function f(X = x) = 1/n
+        Contiinuous Uniform Distribution - Pick a random number from 0 to 10
+            PDF - Probability Density Function f(x) = 1/b-a (A <= x <= b)
+
+Normal Distribution -> (Gaussian distribution)
+It is a continuous probability distribution that is bell-shaped and symmetric.
+    Most values cluster around the mean (mu)
+    Values far from the mean are less likely
+    Shape is symmetric around the mean
+Characteristics
+Mean = Median = Mode (centre of the curve)
+Total area under the curve = 1
+μ = mean & σ = std dev (spreadd of the curve)
+Shortcut: ~68% of the data lies within +-1σ, 95% within +-2σ, 99.7% within +-3σ
+
+    f(x) = (1/(σ * sqrt(2π))) * e^(-(x-μ)^2 / (2σ^2))
+        μ = mean
+        σ = standard deviation
+        π = 3.14
+        e = 2.71
+
+Central Limit Theorem
+    If you take a large number of random samples from any population (with a finite mean and variance), the distribution of the sample mean will be approximately nirmal, regardless of the shape of the original population.
+Key Points:
+    Works for any population distribution (uniform, exponential, skewed, etc)
+    The mean of the sample means will be equal to the population mean (μ)
+    The standard deviation of the sample mean is the population standard deviation divided by the square root of sample size (σ / √n)
