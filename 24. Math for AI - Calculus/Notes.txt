@@ -1,2 +1,2 @@
-Calculus
+Calculus - Math for AI
 It is the branch of mathematics that studies continuous change.
