@@ -1,2 +1,17 @@
 Calculus
 It is the branch of mathematics that studies continuous change.
+
+Functions
+    Each input has one & only output.
+    Domain - all valid input values a function can take (x)
+    Range - all possible output values the function can produce (y)
+
+Nested Functions or Composite Functions
+
+How functions behave?
+    Scalar multiplication with x
+    Scalar addition with x
+
+Differentation
+    Differentation describes how fast one quantity changes compared to another.
+    So, how fast y changes when x changes = dy/dx
