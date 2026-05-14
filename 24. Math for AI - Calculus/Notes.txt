@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Calculus
 It is the branch of mathematics that studies continuous change.
 
@@ -16,7 +15,3 @@ How functions behave?
 Differentation
     Differentation describes how fast one quantity changes compared to another.
     So, how fast y changes when x changes = dy/dx
-=======
-Calculus - Math for AI
-It is the branch of mathematics that studies continuous change.
->>>>>>> 83739cc7307e0bc3e40a3e7802a503de6851c9e8
