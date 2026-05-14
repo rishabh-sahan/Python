@@ -15,3 +15,18 @@ How functions behave?
 Differentation
     Differentation describes how fast one quantity changes compared to another.
     So, how fast y changes when x changes = dy/dx
+Differentation Rules
+    Constant Rule
+    d/dx(c) = 0
+
+    Power Rule
+    d/dx(x^n) = nx^n-1
+
+    Product Rule
+
+    Chain Rule
+    dy/dx = dy/du * du/dx
+
+Finding Minima/Maxima
+    Minima - the lowest value of a function
+    Maxima - the highest value of a function
