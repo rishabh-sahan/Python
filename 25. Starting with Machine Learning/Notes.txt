@@ -1,0 +1,19 @@
+Machine Learning
+    ML is a part of computer science where we teach computers to learn from data, find patterns & make decision or predictions.
+ML Types:
+
+Supervised Learning
+    Labelled data: Labelled data is a raw data (such as images, text or audio) that has been paired with a meaningful tag, label or annotation that informs a machine learning model about the desired outcome. (ip -> op)
+        Classification (classes / categories)
+            Ex: Email (Spam or Not Spam), Cats & Dogs, Grade (A, B, C, D)
+        Regression Problems (continuous value)
+            Ex: AQI Value, Stock Price, Student marks or score prediction
+    
+Unsupervised Learning
+    Unlabelled Data: Only input values or parameters
+        Clustering
+            Ex: iPhone + Charger Buying in Amazon
+
+Reinforcement Learning
+    Goal-Oriented learning
+        Ex: Winning the games
