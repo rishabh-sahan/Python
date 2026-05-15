@@ -1,0 +1,35 @@
+Supervised Learning
+    Supervised ML trains algorithms on labeled datasets, meaning each input has a known correct output, to learn patterns and predict outcomes for new data.
+
+1) Data - Preprocessing, Cleaning, Feature Engineering
+2) Select Model - Select which Algorithm to use
+3) Train & Test - Split the data into the training data & testing data 
+    Ex: Random 80% data is used to train the model, and in the other 20% data is used to test the trained model, particular Hypothesis or Relation
+4) Underfit or Overfit
+
+Types of problems:
+    Regression - output is a continuous numerical value
+        Ex: Weather, AQI, House price prediction, Stock price, Score, Stock Price Predicition 
+    
+    Classification - output is a category or class
+        Binary classification -> only two types of output is possible
+            Ex: Email (spam or not spam), X-Ray (benign (not-harmful) / malignant (harmful) ). 
+        Multi-class classification -> above two types of categories which are all the possible outputs
+            Ex: Photo (cat/dog/rabbit), 0-9 Digits.
+        Multi-label classification
+
+Scikit-learn
+    sklearn is an open source ML library that supports supervised and unsupervised learning.
+Benifits:
+    Well-Documented
+    Easy to learn
+    Works well with numpy & pandas
+    It is a library used by professionals & beginners
+
+Algorithms
+    Linear Regression -> Used in Regression problem  
+    Logistic Regression -> Used in Classification problem
+    kNN -> k nearest neighbors
+    Decision Trees -> Used in both regression & classification problems 
+    Naive Bayes -> Used in classification problems
+    SVM -> Support vector machine -> Used in both regression & classification problems
