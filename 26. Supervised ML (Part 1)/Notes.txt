@@ -54,3 +54,6 @@ Mean Squared Error (MSE)
 J(θ) = 1/2*m ∑^m i=1 (hθ(X^(i) - y^(i) )^2
 
 data points = (1,2)(2,4)(3,6)
+
+Gradient Descent
+    Gradient Descent is an iterative optimization algorithm used to minimize a cost function by adjusting model parameters in the direction of the steepest descent of the functions gradient.
