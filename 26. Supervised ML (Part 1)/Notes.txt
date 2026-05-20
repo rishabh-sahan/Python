@@ -61,4 +61,25 @@ Gradient Descent
 Summary:
     θ0, θ1 - Initial values
     Make predictions + calculate J(θ)
-    Convergence theorem to update parame
+    Convergence theorem to update parameters
+
+Linear Regression Insurance Data Project
+    smoker -> yes(1) & no(0)
+    sex -> female(1) & male(0)
+
+Evaluation Metrics
+    Evaluation Metrics are how we measure how good a model is.
+Mean Absolute Error (MAE)
+    1/n ∑^n i = 1 |yi - y^i|
+
+Mean Squared Error (MSE)
+    1/n ∑^n i = 1 |yi - y^i| ^ 2
+
+Root Mean Squared Error (RSME = √MSE)
+
+Evaluation metrics are how we measure how good a model is.
+R-squared (R^2)
+    1 - ∑(yi - y^i)^2 / ∑(yi - y-)^2   
+
+Adjusted R-squared
+    1 - (1 - R^2)(n-1) / n-p-1
